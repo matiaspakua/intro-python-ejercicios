@@ -1,66 +1,66 @@
 
-Elemento: O
-S= 8
-Z= O
-A= 16
-Masa= 15.99491461956(16)
-Abundancia= 0.99757(16)
-Masa Promedio= 15.9994(3)
-
-Elemento: Na
-S= 11
-Z= Na
-A= 23
-Masa= 22.9897692809(29)
-Abundancia= 1.0000
-Masa Promedio= 22.98976928(2)
-
-Elemento: N
-S= 7
-Z= N
-A= 14
-Masa= 14.0030740048(6)
-Abundancia= 0.99636(20)
-Masa Promedio= 14.0067(2)
-
-Elemento: H
-S= 1
-Z= H
-A= 1
-Masa= 1.00782503207(10)
-Abundancia= 0.999885(70)
-Masa Promedio= 1.00794(7)
-
-Elemento: Cl
-S= 17
-Z= Cl
-A= 35
-Masa= 34.96885268(4)
-Abundancia= 0.7576(10)
-Masa Promedio= 35.453(2)
-
-Elemento: Ca
-S= 20
-Z= Ca
-A= 40
-Masa= 39.96259098(22)
-Abundancia= 0.96941(156)
-Masa Promedio= 40.078(4)
+Elemento: Au
+S= 79
+Z= Au
+A= 197.0
+Masa= 196.96657 
+Abundancia= 1.00000 
+Masa Promedio= 196.96657 
 
 Elemento: C
 S= 6
 Z= C
-A= 12
-Masa= 12.0000000(0)
-Abundancia= 0.9893(8)
-Masa Promedio= 12.0107(8)
+A= 12.0
+Masa= 12.00000 
+Abundancia= 0.98930 
+Masa Promedio= 12.01070 
 
-Elemento: Au
-S= 79
-Z= Au
-A= 197
-Masa= 196.9665687(6)
-Abundancia= 1.0000
-Masa Promedio= 196.966569(4)
+Elemento: Ca
+S= 20
+Z= Ca
+A= 40.0
+Masa= 39.96259 
+Abundancia= 0.96941 
+Masa Promedio= 40.07800 
+
+Elemento: Cl
+S= 17
+Z= Cl
+A= 35.0
+Masa= 34.96885 
+Abundancia= 0.75760 
+Masa Promedio= 35.45300 
+
+Elemento: H
+S= 1
+Z= H
+A= 1.0
+Masa= 1.00783 
+Abundancia= 0.99989 
+Masa Promedio= 1.00794 
+
+Elemento: N
+S= 7
+Z= N
+A= 14.0
+Masa= 14.00307 
+Abundancia= 0.99636 
+Masa Promedio= 14.00670 
+
+Elemento: Na
+S= 11
+Z= Na
+A= 23.0
+Masa= 22.98977 
+Abundancia= 1.00000 
+Masa Promedio= 22.98977 
+
+Elemento: O
+S= 8
+Z= O
+A= 16.0
+Masa= 15.99491 
+Abundancia= 0.99757 
+Masa Promedio= 15.99940 
 
 

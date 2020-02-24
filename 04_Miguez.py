@@ -17,6 +17,14 @@ def leer_archivo(nombre):
                 k,v = line.split("=")
                 k = k.strip()   #elimino los espacios en blanco.
                 v = v.strip()
+                
+                if k.count('Mass') | k.count('Weight') | k.count('Isotopic'):
+                    if v.endswith(')'):
+                        value = v.split('(')
+                        v = float(value[0])
+                    else:
+                        v = float(v)
+                
                 elemento[k] = v
                 if 'Atomic Symbol' in k:
                     elemento_key = elemento['Atomic Symbol']
@@ -49,13 +57,13 @@ def ordenar_alfabericamente(diccionario, reverse=False):
             elif "Atomic Symbol" in sub_keys:
                 dict_to_string += "Z= " + value + "\n"
             elif "Mass Number" in sub_keys:
-                dict_to_string += "A= " + value + "\n"
+                dict_to_string += "A= " + str(value) + "\n"
             elif "Relative Atomic Mass" in sub_keys:
-                dict_to_string += "Masa= " + value + "\n"
+                dict_to_string += "Masa= {:.5f} \n".format(value)
             elif "Isotopic Composition" in sub_keys:
-                dict_to_string += "Abundancia= " + value + "\n"
+                dict_to_string += "Abundancia= {:.5f} \n".format(value)
             elif "Standard Atomic Weight" in sub_keys:
-                dict_to_string += "Masa Promedio= " + value + "\n"
+                dict_to_string += "Masa Promedio= {:.5f} \n".format(value)
         dict_to_string += "\n"
     return dict_to_string
 
@@ -72,6 +80,6 @@ def agregar_a_archivo(nombre_archivo, texto):
         
     
 elemento_dict = leer_archivo(nombre_archivo)
-#elementos = ordenar_alfabericamente(elemento_dict)
-elementos = ordenar_alfabericamente(elemento_dict, True)
+elementos = ordenar_alfabericamente(elemento_dict)
+#elementos = ordenar_alfabericamente(elemento_dict, True)
 agregar_a_archivo("Elementos_formateado.dat", elementos)
