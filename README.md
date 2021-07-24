@@ -1,4 +1,6 @@
-# intro-python-ejercicios
+# Resolución Ejercicios Curso de Python
+
+Los ejercicios se resolvieron usando JupyterNotebooks.
 
 Repositorio de las clases:
 
